@@ -9,8 +9,8 @@ class Navbar extends React.Component {
 
   navbarItems() {
     let links = ['Shots', 'Designers', 'Teams', 'Community', 'Jobs'];
-    return links.map(link => {
-      return (<li className="navbar-nav">Shots</li>);
+    return links.map((link, i) => {
+      return (<li className="navbar-nav" key={i}>{link}</li>);
     });
   }
 

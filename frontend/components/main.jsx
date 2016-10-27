@@ -23,9 +23,9 @@ class Main extends React.Component {
     return(
       <main className="main">
         <UserTag
-          title={info['title']}
-          avatar={info['avatar']}
-          author={info['author']} />
+          title={info.title}
+          avatar={info.avatar}
+          author={info.author} />
         <Screen />
         <SideBar />
       </main>
